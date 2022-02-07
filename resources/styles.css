@@ -5,6 +5,145 @@
   scroll-behavior: smooth;
 }
 
+
+.features_section {
+  margin-top: 50px;
+}
+
+.features_section_top {
+  width: 504px;
+  height: 152px;
+  margin: 0px auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.features_h1 {
+  font-weight: 500;
+  letter-spacing: -0.1px;
+  line-height: 52px;
+  font-style: normal;
+  font-family: Rubik;
+  text-align: center;
+  font-size: 32px;
+  color: #242a45;
+}
+
+.features_p {
+  color: #242a45;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  opacity: 0.5;
+}
+
+.feature_btn {
+  width: 114px;
+  height: 48px;
+  border: none;
+  padding: 20px;
+  color: #ffffff;
+  background-color: #5267df;
+  border-radius: 8px;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  font-weight: 500;
+  font-family: Rubik;
+}
+
+.tabs-container {
+  width: 730px;
+  height: 49px;
+  margin: 0px auto;
+  display: flex;
+  border-bottom: 0.5px solid rgba(73, 93, 207, 0.20012);
+  margin-bottom: 50px;
+}
+
+.tabs-container > div {
+  flex: 1;
+  text-align: center;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 17px;
+  letter-spacing: 0.53px;
+  text-align: center;
+}
+
+.features_tab_hover {
+  border-bottom: 4.08px solid #fa5959;
+}
+
+.features_section {
+  margin-bottom: 200px;
+}
+
+.features_section_bottom {
+  width: 1306px;
+  height: 346px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.features_image {
+  width: 536px;
+  margin-right: 100px;
+  position: relative;
+}
+
+.blue_background {
+  position: absolute;
+  width: 1000px;
+  height: 352px;
+  left: -360px;
+  top: 426px;
+  background-color: #5267df;
+  border-radius: 0 0 316.5px 0;
+}
+
+.image_container {
+  z-index: 9;
+}
+
+.features_content {
+  width: 445px;
+  align-self: flex-start;
+  margin-left: 50px;
+  height: 232px;
+  text-align: left;
+  padding-top: 20px;
+  margin-top: 50px;
+}
+
+.feature_sub_heading {
+  font-size: 32px;
+  letter-spacing: -0.1px;
+  line-height: 52px;
+  font-style: normal;
+  font-weight: 500;
+  font-family: Rubik;
+}
+
+.features_content > p {
+  margin-top: 38px;
+  font-size: 18px;
+  line-height: 28px;
+  font-style: normal;
+  font-family: Rubik;
+  height: 84px;
+  opacity: 0.5;
+}
+
+.features_content > button {
+  margin-top: 30px;
+}
+
 /* Navigation Bar */
 
 .navbar {
@@ -206,17 +345,6 @@
   width: 100%;
   
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
