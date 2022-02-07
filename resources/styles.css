@@ -5,6 +5,68 @@
   scroll-behavior: smooth;
 }
 
+
+.faq{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.questions-container{
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.question{
+  max-width: 700px;
+  border-bottom: 1px solid rgb(163, 158, 158);
+}
+.question button{
+  width: 100%;
+  background-color: rgb(255, 255, 255); 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
+  border:none;
+  outline: none;
+  font-size: 22px;
+  
+  font-weight: 700;
+  cursor: pointer;
+}
+.question p{
+  font-size: 22px;
+  max-height: 0;
+  opacity: 0;
+  line-height: 1.5;
+  overflow: hidden;
+  transition: all 0.6s ease;
+}
+.d-arrow{
+  transition: transform 0.5s ease-in ;
+  color: rgb(78, 84, 175);
+}
+
+.question p.show{
+  max-height: 200px; 
+  opacity: 1;
+  padding:0px 15px 30px 15px;
+}
+.question button .d-arrow.rotate{
+  transform: rotate(180deg);
+}
+.info{
+  margin-top: 40px;
+  height: 30px;
+  width: 100px;
+  background-color: blue;
+  color: white;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+}
 .extensions {
   text-align: center;
   display: flex;
