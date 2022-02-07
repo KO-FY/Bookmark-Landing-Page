@@ -43,6 +43,7 @@
   margin: 0px auto;
   display: flex;
   border-bottom: 0.5px solid rgba(73, 93, 207, 0.20012);
+  margin-bottom: 50px;
 }
 
 .tabs-container > div {
@@ -58,4 +59,36 @@
 
 .simple_bookmark_container {
   border-bottom: 4.08px solid #fa5959;
+}
+
+.features_section_bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.features_image {
+  width: 536px;
+  border: 1px solid blue;
+  margin-right: 50px;
+}
+
+.features_content {
+  width: 445px;
+  align-self: flex-start;
+  border: 1px solid red;
+  margin-left: 50px;
+  height: 232px;
+  text-align: left;
+  padding-top: 20px;
+  margin-top: 50px;
+}
+
+.features_content > p {
+  margin-top: 30px;
+  height: 84px;
+}
+
+.features_content > button {
+  margin-top: 30px;
 }
