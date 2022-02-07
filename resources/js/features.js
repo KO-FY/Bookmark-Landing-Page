@@ -5,6 +5,7 @@ const easy_share = document.querySelector(".easy_sharing_container");
 const heading = document.querySelector(".feature_sub_heading");
 const paragraph = document.querySelector(".feature_p");
 // const btnText = document.querySelector(".feature_btn");
+const image = document.querySelector(".feature_image");
 
 simple_book.addEventListener("click", () => {
   simple_book.classList.add("features_tab_hover");
@@ -13,6 +14,7 @@ simple_book.addEventListener("click", () => {
   heading.innerText = "Bookmark in one click";
   paragraph.innerText =
     "Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.";
+  image.src = "./resources/images/illustration-features-tab-1.svg";
 });
 
 speedy_search.addEventListener("click", () => {
@@ -22,6 +24,7 @@ speedy_search.addEventListener("click", () => {
   heading.innerText = "Intelligent search";
   paragraph.innerText =
     "Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.";
+  image.src = "./resources/images/illustration-features-tab-2.svg";
 });
 
 easy_share.addEventListener("click", () => {
@@ -31,4 +34,5 @@ easy_share.addEventListener("click", () => {
   heading.innerText = "Share your bookmarks";
   paragraph.innerText =
     "Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.";
+  image.src = "./resources/images/illustration-features-tab-3.svg";
 });
