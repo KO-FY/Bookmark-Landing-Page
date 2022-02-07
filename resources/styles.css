@@ -23,6 +23,7 @@
   font-style: normal;
   font-family: Rubik;
   text-align: center;
+  font-size: 32px;
   color: #242a45;
 }
 
@@ -35,6 +36,20 @@
   line-height: 28px;
   text-align: center;
   opacity: 0.5;
+}
+
+.feature_btn {
+  width: 114px;
+  height: 48px;
+  border: none;
+  padding: 20px;
+  color: #ffffff;
+  background-color: #5267df;
+  border-radius: 8px;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  font-weight: 500;
+  font-family: Rubik;
 }
 
 .tabs-container {
@@ -104,9 +119,23 @@
   margin-top: 50px;
 }
 
+.feature_sub_heading {
+  font-size: 32px;
+  letter-spacing: -0.1px;
+  line-height: 52px;
+  font-style: normal;
+  font-weight: 500;
+  font-family: Rubik;
+}
+
 .features_content > p {
-  margin-top: 30px;
+  margin-top: 38px;
+  font-size: 18px;
+  line-height: 28px;
+  font-style: normal;
+  font-family: Rubik;
   height: 84px;
+  opacity: 0.5;
 }
 
 .features_content > button {
