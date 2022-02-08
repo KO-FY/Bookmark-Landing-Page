@@ -394,6 +394,7 @@
 
 /* Hero Section */
 
+<<<<<<< Updated upstream
 .hero {
   background: #ffff;
   padding: 5rem 0;
@@ -409,6 +410,52 @@
   height: 80%;
   width: 100%;
   max-width: 1104px;
+=======
+/* faq section */
+
+
+
+.faq {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+
+.faq h1{
+  top: calc(50% - 52px/2 - 36px);
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 52px;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #242A45;
+}
+
+.faq p{
+  height: 56px;
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 56px/2 + 34px);
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  text-align: center;
+  color: #242A45;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.questions-container {
+  max-width: 800px;
+>>>>>>> Stashed changes
   margin: 0 auto;
   padding: 0 50px;
   z-index: 1; 
@@ -422,17 +469,50 @@
   height: 292px;
   
 }
+<<<<<<< Updated upstream
 
 .hero__content h1 {
   color: #242a45;
   font-size: 3rem;
   margin-bottom: 10px;
+=======
+.question button {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: #242A45;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.question p {
+  height: auto;
+  font-size: 15px;
+  max-height: 0;
+  opacity: 0;
+  line-height: 1.5;
+  overflow: hidden;
+  transition: all 0.6s ease;
+}
+.d-arrow {
+  transition: transform 0.5s ease-in;
+  color: rgb(78, 84, 175);
+>>>>>>> Stashed changes
 }
 
 .hero__content p {
   font-size: 1.75rem;
   color: #242a45;
 }
+<<<<<<< Updated upstream
 .hero__img--card {
   position: relative;
   height: 385px;
@@ -441,6 +521,15 @@
   top: 150px;
   
   
+=======
+.info {
+  width: 114px;
+  height: 48px;
+  margin: 30px;
+  background-color: #5267df;
+  color: #f7f7f7;
+
+>>>>>>> Stashed changes
 }
 
 .hero__button {
@@ -502,9 +591,104 @@
   
 }
 
+<<<<<<< Updated upstream
 .hero__img--container {
   position: relative;
   width: 100%;
   
+=======
+/* Queries */
+
+@media screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "Rubik", sans-serif;
+  }
+
+  /* Header section */
+
+  /* Features section */
+
+  /* Extensions section */
+
+  /* FAQ section */
+
+  .faq {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+  
+  
+  .faq h1{
+    top: calc(50% - 52px/2 - 36px);
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.075px;
+  }
+  
+  .faq p{
+    height: 56px;
+    font-size: 15px;
+    line-height: 25px;
+    opacity: 0.5;
+  }
+  
+  .questions-container {
+    max-width: 550px;
+    margin: 0 auto;
+  }
+  
+  .question {
+    max-width: 500px;
+    border-bottom: 1px solid rgb(163, 158, 158);
+  }
+  .question button {
+    font-size: 18px;
+    line-height: 32px;
+    align-items: center;
+  }
+  .question p {
+    height: auto;
+    font-size: 15px;
+    max-height: 0;
+    opacity: 0;
+    line-height: 1.5;
+    overflow: hidden;
+    transition: all 0.6s ease;
+  }
+  .d-arrow {
+    transition: transform 0.5s ease-in;
+    color: rgb(78, 84, 175);
+  }
+  
+  .question p.show {
+    max-height: 200px;
+    opacity: 1;
+    padding: 0px 15px 30px 15px;
+  }
+  .question button .d-arrow.rotate {
+    transform: rotate(180deg);
+  }
+
+
+
+
+
+
+
+  /* Contact and footer section */
+>>>>>>> Stashed changes
 }
 
