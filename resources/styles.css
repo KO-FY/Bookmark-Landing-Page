@@ -6,7 +6,6 @@
 }
 
 body {
-  width: 1440px;
   font-family: "Rubik", sans-serif;
 }
 
@@ -599,7 +598,7 @@ input:focus {
     box-sizing: border-box;
     scroll-behavior: smooth;
   }
-  
+
   body {
     width: 375px;
     font-family: "Rubik", sans-serif;
