@@ -636,9 +636,9 @@ input:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 0.5px solid rgba(73, 93, 207, 0.20012);
-    border-top: 0.5px solid rgba(73, 93, 207, 0.20012);
-    width: 350px;
+    /* border-bottom: 0.5px solid rgba(73, 93, 207, 0.20012);
+    border-top: 0.5px solid rgba(73, 93, 207, 0.20012); */
+    width: 230px;
   }
 
   .features_tab_hover {
@@ -653,5 +653,51 @@ input:focus {
     width: 900px;
     height: 332px;
     border-radius: 0 0 316.5px 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .features_section_bottom {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border: 1px solid red;
+    height: 880px;
+  }
+
+  .features_image {
+    width: 446px;
+    margin-right: 100px;
+    position: relative;
+    border: 1px solid black;
+    margin: 0px auto;
+  }
+
+  .features_content {
+    width: 445px;
+    align-self: flex-start;
+    margin-left: 50px;
+    height: 322px;
+    text-align: left;
+    padding-top: 20px;
+    border: 1px solid black;
+    margin: 50px auto;
+  }
+}
+
+@media screen and (max-width: 1045px) {
+  .features_section_bottom {
+    width: 956px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .features_section_bottom {
+    width: 1006px;
+  }
+  .features_content > button {
+    margin-top: 70px;
   }
 }
