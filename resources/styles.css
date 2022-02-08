@@ -663,27 +663,26 @@ input:focus {
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 100px;
-    border: 1px solid red;
     height: 880px;
   }
 
   .features_image {
-    width: 446px;
+    width: 40%;
     margin-right: 100px;
     position: relative;
-    border: 1px solid black;
+    align-self: center;
     margin: 0px auto;
   }
 
   .features_content {
-    width: 445px;
+    width: 40%;
     align-self: flex-start;
     margin-left: 50px;
     height: 322px;
     text-align: left;
     padding-top: 20px;
-    border: 1px solid black;
-    margin: 50px auto;
+    align-self: center;
+    margin: 0px auto;
   }
 }
 
