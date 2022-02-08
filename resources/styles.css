@@ -6,7 +6,6 @@
 }
 
 body {
-  width: 1440px;
   font-family: "Rubik", sans-serif;
 }
 
@@ -599,7 +598,7 @@ input:focus {
     box-sizing: border-box;
     scroll-behavior: smooth;
   }
-  
+
   body {
     font-family: "Rubik", sans-serif;
   }
@@ -613,4 +612,100 @@ input:focus {
   /* FAQ section */
 
   /* Contact and footer section */
+}
+
+/* features media queries */
+@media screen and (max-width: 511px) {
+  .features_section_top {
+    width: 311px;
+    height: 152px;
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .features_section_top {
+    width: 311px;
+    height: 152px;
+  }
+}
+
+@media screen and (max-width: 753px) {
+  .tabs-container {
+    width: 330px;
+    height: 139px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+  }
+
+  .tabs-container > div {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-bottom: 0.5px solid rgba(73, 93, 207, 0.20012);
+    border-top: 0.5px solid rgba(73, 93, 207, 0.20012); */
+    width: 230px;
+  }
+
+  .features_tab_hover {
+    width: 200px;
+    border-bottom: 4.08px solid #fa5959;
+  }
+}
+
+@media screen and (max-width: 1442px) {
+  .blue_background {
+    position: absolute;
+    width: 900px;
+    height: 332px;
+    border-radius: 0 0 316.5px 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .features_section_bottom {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    height: 880px;
+  }
+
+  .features_image {
+    width: 40%;
+    margin-right: 100px;
+    position: relative;
+    align-self: center;
+    margin: 0px auto;
+  }
+
+  .features_content {
+    width: 40%;
+    align-self: flex-start;
+    margin-left: 50px;
+    height: 322px;
+    text-align: left;
+    padding-top: 20px;
+    align-self: center;
+    margin: 0px auto;
+  }
+}
+
+@media screen and (max-width: 1045px) {
+  .features_section_bottom {
+    width: 956px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .features_section_bottom {
+    width: 1006px;
+  }
+  .features_content > button {
+    margin-top: 70px;
+  }
 }
