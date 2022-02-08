@@ -6,7 +6,8 @@
 }
 
 body {
-  width: 1440px;
+  /* max-width: 1440px; */
+  /* margin: 0 auto; */
   font-family: "Rubik", sans-serif;
 }
 
@@ -590,6 +591,8 @@ input:focus {
   border: 1px solid #fa5959;
 }
 
+
+
 /* Queries */
 
 @media screen and (max-width: 375px) {
@@ -599,8 +602,10 @@ input:focus {
     box-sizing: border-box;
     scroll-behavior: smooth;
   }
-  
+
   body {
+    /* width: 375px;  */
+    margin: 0 auto;
     font-family: "Rubik", sans-serif;
   }
 
@@ -613,4 +618,5 @@ input:focus {
   /* FAQ section */
 
   /* Contact and footer section */
+  
 }
