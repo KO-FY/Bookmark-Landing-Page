@@ -668,5 +668,50 @@ input:focus {
   /* FAQ section */
 
   /* Contact and footer section */
-  
+  .contact-us {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .already-joined,
+  .update,
+  .email-field,
+  button.contact-us-button {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .bottom-nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 334px;
+  }
+
+  .bottom-nav-items {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+  }
+
+  .bottom-nav-items li,
+  .bottom-nav-menu img {
+    
+    text-align: center;
+  } 
+  .bottom-nav-imgs {
+    width: 100%;
+    justify-content: center;
+    margin: 5px;
+  }
+
+
+  .bottom-menu {
+    display: inline-flex;
+  }
+
+  .bottom-nav-items img {
+    background-color: #fff;
+  }
 }
