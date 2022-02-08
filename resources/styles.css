@@ -8,19 +8,22 @@
 /* Navigation Bar */
 
 .navbar {
-  background: white;
+  background: #ffff;
   height: 46px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 13px;
   position: sticky;
   top: 0;
   z-index: 999;
+  width: 1440px;
+  text-transform: uppercase;
 }
 
 .navbar__logo {
    height: 25px;
+   width: 149px;
   margin-top: 10px;
 }
 
@@ -30,8 +33,7 @@
   justify-content: space-between;
   height: 46px;
   z-index: 1;
-  width: 100%;
-  max-width: 1104px;
+  width: 1104px;
   margin: 0 auto;
   padding: 0 50px;
   padding-left: 5px;
@@ -105,9 +107,9 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
-  height: 80%;
-  width: 100%;
-  max-width: 1104px;
+  height: 90%;
+  width: 1440px;
+  
   margin: 0 auto;
   padding: 0 50px;
   z-index: 1; 
@@ -119,27 +121,39 @@
   color: #f7f7f7;
   width: 540px;
   height: 292px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   
 }
 
 .hero__content h1 {
   color: #242a45;
-  font-size: 3rem;
+  font-size: 48px;
   margin-bottom: 10px;
+  line-height: 52px;
+  letter-spacing: -0.15px;
+  margin-top: 15px;
 }
 
 .hero__content p {
-  font-size: 1.75rem;
+  font-size: 1.125rem;
   color: #242a45;
+  height: 5.25rem;
+  width: 28.125rem;
+  line-height: 28px;
+  text-align: left;
+  font-weight: 500;
+  
 }
 .hero__img--card {
   position: relative;
-  height: 385px;
-  width: 578px;
+  height: 24.0625rem;
+  width: 36.125rem;
   z-index: 99;
-  top: 150px;
-  
-  
+  top: 12rem;
+  right: 6.875rem;
 }
 
 .hero__button {
@@ -194,8 +208,8 @@
   height: 352px;
   background: #5267df;
   z-index: 1;
-  bottom: 150px;
-  left: 120px;
+  bottom: 5rem;
+  left: 2.6875rem;
   border-bottom-left-radius: 50%;
   border-top-left-radius: 50%;
   
