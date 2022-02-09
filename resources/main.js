@@ -9,3 +9,4 @@ buttons.forEach( button =>{
         icon.classList.toggle('rotate');
     })
 } )
+
