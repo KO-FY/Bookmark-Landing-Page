@@ -528,16 +528,26 @@ height: 17px;
 }
 
 .features_section_bottom {
-  width: 1306px;
+  width: 80%;
   height: 346px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   margin: 0 auto;
 }
 
+/* .image_container {
+  width: 80%;
+}
+
+.feature_image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+} */
+
 .features_image {
-  width: 536px;
+  width: 45%;
   margin-right: 100px;
   position: relative;
 }
@@ -557,7 +567,7 @@ height: 17px;
 }
 
 .features_content {
-  width: 445px;
+  width: 35%;
   align-self: flex-start;
   margin-left: 50px;
   height: 232px;
@@ -586,7 +596,7 @@ height: 17px;
 }
 
 .features_content > button {
-  margin-top: 30px;
+  margin-top: 60px;
 }
 
 /************ Extensions section ********/
@@ -1268,47 +1278,63 @@ input:focus {
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1175px) {
   .features_section_bottom {
     flex-direction: column;
+    height: 710px;
     align-items: center;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 100px;
-    height: 880px;
+    justify-content: space-between;
   }
 
   .features_image {
-    width: 40%;
-    margin-right: 100px;
-    position: relative;
-    align-self: center;
+    width: 80%;
     margin: 0px auto;
   }
 
   .features_content {
-    width: 40%;
-    align-self: flex-start;
-    margin-left: 50px;
-    height: 322px;
-    text-align: left;
-    padding-top: 20px;
-    align-self: center;
+    width: 80%;
     margin: 0px auto;
   }
 }
 
-@media screen and (max-width: 1045px) {
-  .features_section_bottom {
-    width: 956px;
+@media screen and (max-width: 375px) {
+  .blue_background {
+    position: absolute;
+    width: 280px;
+    height: 200px;
+    left: -20px;
+    top: 1196px;
+    background-color: #5267df;
+    border-radius: 0 0 150px 0;
+    margin-top: 50px;
   }
-}
 
-@media screen and (max-width: 1280px) {
   .features_section_bottom {
-    width: 1006px;
+    margin-bottom: 0px;
   }
-  .features_content > button {
-    margin-top: 70px;
+
+  .features_image {
+  }
+
+  .feature_image {
+    width: 250px;
+    height: 185px;
+    margin-left: 0px;
+  }
+
+  .features_content {
+    text-align: center;
+    width: 96%;
+    margin: 50px auto;
+    height: 500px;
+    margin-bottom: 50px;
+  }
+
+  .features_content > p {
+    margin-bottom: 50px;
+  }
+
+  .feature_sub_heading {
+    font-size: 22px;
   }
 }
