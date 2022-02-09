@@ -17,6 +17,9 @@
     <link rel="stylesheet" type="text/css" href="/Bookmark-Landing-Page/resources/styles.css">
 
     <title>Bookmark landing page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
@@ -29,18 +32,8 @@
       }
     </style>
   </head>
-  <body>  
-  
-    35,000+ already joined
-  
-    Stay up-to-date with what we’re doing
-  
-    Contact Us
-  
-    Features
-    Pricing
-    Contact
-  
+
+      
 
     <!-- Navbar Section-->
   <nav class="navbar">
@@ -107,8 +100,8 @@
       <article class="features_section_bottom">
         <div class="features_image">
           <div class="image_container">
-            <img
-              class="feature_image"
+            <img 
+            class="feature_image"
               src="./resources/images/illustration-features-tab-1.svg"
               alt="bookmark_image"
             />
@@ -125,43 +118,33 @@
         </div>
       </article>
     </section>
-    
-    <section class="extensions">
-      <div class="extensions-heading">
-      
- <h2>Download the extension</h2>
-    
 
-   <p> We’ve got more browsers in the pipeline. Please do let us know if<br> you’ve 
-    got a favourite you’d like us to prioritize.</p>
-  
-      </div>
-  <div class="blocks">
+<section class="extensions">
+  <h2>Download the extension</h2>
+  <p>We’ve got more browsers in the pipeline. Please do let us know if<br> you’ve got a favourite you’d like us to prioritize</p>
 
-    <div class="chrome">
-    <img src="/Bookmark-Landing-Page/resources/images/logo-chrome.svg" class="browser-img">
-    <h3>Add to Chrome</h3>
-    <p>Minimum version 62</p>
-    <img src="/Bookmark-Landing-Page/resources/images/bg-dots.svg" class="dotted-svg">
-    <button>Add & Install Extension</button>
+  <div class="extensions-row">
+    <div class="extensions-col">
+      <img src="/resources/images/logo-chrome.svg" alt="chrome logo">
+      <h3>Add to Chrome</h3>
+      <p>Minimum version 62</p>
+      <hr>
+      <a href="#">Add & Install Extension</a>
     </div>
-  
-    <div class="firefox">
-    <img src="/Bookmark-Landing-Page/resources/images/logo-firefox.svg" class="browser-img">
-    <h3>Add to Firefox</h3>
-    <p>Minimum version 55</p>
-    <img src="/Bookmark-Landing-Page/resources/images/bg-dots.svg" class="dotted-svg">
-    <button>Add & Install Extension</button>
+    <div class="extensions-col">
+      <img src="/resources/images/logo-firefox.svg" alt="firefox logo">
+      <h3>Add to Firefox</h3>
+      <p>Minimum version 55</p>
+      <hr>
+      <a href="#">Add & Install Extension</a>
     </div>
-
-    <div class="opera">
-    <img src="/Bookmark-Landing-Page/resources/images/logo-opera.svg"  class="browser-img">
-    <h3>Add to Opera</h3>
-    <p>Minimum version 46</p>
-    <img src="/Bookmark-Landing-Page/resources/images/bg-dots.svg" class="dotted-svg">
-    <button>Add & Install Extension</button>
+    <div class="extensions-col">
+      <img src="/resources/images/logo-opera.svg" alt="opera logo">
+      <h3>Add to Opera</h3>
+      <p>Minimum version 46</p>
+      <hr>
+      <a href="#">Add & Install Extension</a>
     </div>
-
   </div>
 </section>
   
@@ -230,6 +213,21 @@
 
     <button type="button" class="info">More Info</button>
     </center>
+  
+  <section class="contact-us">
+      <p class="already-joined">35,000+ already joined</p>
+      <p class="update">Stay up-to-date with what we’re doing</p>
+
+      <form class="contact-us-form" action="#">
+        <input type="email" class="email-field">
+        <button class="contact-us-button">Contact Us</button>
+      </form>
+    </section>
+ 
+
+    Features
+    Pricing
+    Contact
 
 
     <footer>
