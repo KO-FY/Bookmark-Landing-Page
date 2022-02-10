@@ -426,7 +426,6 @@ body {
     margin: 5px 5px;
     height: 48px;
   }
-  
 }
 
 /* Features Section */
@@ -917,7 +916,6 @@ input:focus {
     font-size: 1.3rem;
   }
 
-  
   /* faq section */
 
   .faq {
@@ -983,8 +981,6 @@ input:focus {
     margin-top: 2.5rem;
   }
 
-  
-
   .question button {
     font-family: Rubik;
     font-style: normal;
@@ -1026,8 +1022,6 @@ input:focus {
     font-size: 1.1rem;
   }
 
-  
-
   .info {
     width: 114px;
     height: 48px;
@@ -1065,7 +1059,6 @@ input:focus {
     font-size: 0.7rem;
   }
 
-  
   /* Queries */
 }
 @media screen and (max-width: 600px) {
@@ -1283,10 +1276,10 @@ input:focus {
 @media screen and (max-width: 375px) {
   .blue_background {
     position: absolute;
-    width: 280px;
-    height: 200px;
+    width: 330px;
+    height: 180px;
     left: -20px;
-    top: 1196px;
+    top: 1156px;
     background-color: #5267df;
     border-radius: 0 0 150px 0;
     margin-top: 50px;
