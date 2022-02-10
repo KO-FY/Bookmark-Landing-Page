@@ -763,7 +763,7 @@ body {
 }
 
 button.contact-us-button,
-.email-field {
+#email-field {
   padding: 10px;
   border-radius: 5px;
   border: none;
@@ -785,7 +785,7 @@ button.contact-us-button:hover {
   cursor: pointer;
 }
 
-.email-field {
+#email-field {
   width: 300px;
   height: 48px;
 }
@@ -794,6 +794,14 @@ input:focus {
   outline: none;
   border: 1px solid #fa5959;
 }
+.errMsg{
+  width: 300px;
+  height: 25px;
+  background-color: #e52d27;
+  color: #fff;
+  border-radius: 0 0 5px 5px;
+}
+
 
 .bottom-nav {
   max-width: 1440px;
@@ -1155,7 +1163,7 @@ input:focus {
 
   .already-joined,
   .update,
-  .email-field,
+  #email-field,
   button.contact-us-button {
     width: 100%;
     text-align: center;

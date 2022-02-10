@@ -220,9 +220,10 @@
       <p class="already-joined">35,000+ already joined</p>
       <p class="update">Stay up-to-date with what we’re doing</p>
 
-      <form class="contact-us-form" action="#contact-us-button">
-        <input type="email" class="email-field">
+      <form class="contact-us-form" action="#contact-us-button" onsubmit="getInputValue();">
+        <input id="email-field">
         <button class="contact-us-button">Contact Us</button>
+        <p class="errMsg">Whoops, make sure it’s an email</p>
       </form>
     </section>
  
@@ -253,5 +254,6 @@
     <script src="resources/main.js"></script>
     <script type="text/javascript" src="./resources/js/features.js"></script>
     <script type="text/javascript" src="./resources/js/hero.js"></script>
+    <script type="text/javascript" src="./resources/js/email.js"></script>
   </body>
 </html>
