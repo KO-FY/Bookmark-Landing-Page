@@ -660,6 +660,17 @@ body {
   margin-top: 80px;
   margin-bottom: 40px;
 }
+.some-faqs {
+  line-height: 28px;
+  font-size: 18px;
+  opacity: 0.5;
+  font-weight: normal;
+  font-weight: normal;
+  font-style: normal;
+  font-weight: normal;
+  color: #242A45;
+  max-width: 540px;
+}
 
 .questions-container {
   max-width: 800px;
@@ -679,9 +690,9 @@ body {
   padding: 20px 15px;
   border: none;
   outline: none;
-  font-size: 22px;
-
-  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
   cursor: pointer;
 }
 .question p {
@@ -707,6 +718,7 @@ body {
 }
 .info {
   margin-top: 40px;
+  margin-bottom: 150px;
   height: 30px;
   width: 100px;
   background-color: blue;
@@ -770,6 +782,9 @@ button.contact-us-button:active {
   color: #fa5959;
   border: 1px solid #fa5959;
 }
+button.contact-us-button:hover {
+  cursor: pointer;
+}
 
 .email-field {
   width: 300px;
@@ -788,7 +803,7 @@ input:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  overflow-x: scroll;
+  overflow: hidden
 }
 
 .bottom-nav-imgs {
@@ -823,6 +838,11 @@ input:focus {
   text-transform: uppercase;
 }
 
+.bottom-nav-item:hover {
+  cursor: pointer;
+  color: #fa5959;
+}
+
 .bottom-menu {
   width: 111px;
   height: 14px;
@@ -831,6 +851,10 @@ input:focus {
 
 .bottom-nav-items img {
   background-color: #fff;
+}
+.bottom-nav-imgs li:hover {
+  cursor: pointer;
+  background-color: #fa5959;
 }
 
 /* Queries */
@@ -902,6 +926,8 @@ input:focus {
     margin-top: 80px;
     margin-bottom: 40px;
   }
+
+  
 
   .faq h1 {
     top: calc(50% - 52px / 2 - 36px);
@@ -1008,6 +1034,7 @@ input:focus {
     margin: 30px;
     background-color: #5267df;
     color: #f7f7f7;
+    
   }
 
   .extensions p {
