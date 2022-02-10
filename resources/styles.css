@@ -97,6 +97,12 @@ body {
   color: white;
   transition: all 0.2s ease;
 }
+.button:hover {
+  background: #f7f7f7;
+  transition: all 0.3s ease;
+  color: #fa5959;
+  border: 1px solid #fa5959;
+}
 
 .navbar__link:hover {
   color: #fa5959;
@@ -161,15 +167,46 @@ body {
     margin-top: 0;
   }
 
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 260px;
+  height: 48px;
+  margin-right: 10px;
+  margin-top: 0;
+  background: #242a45;
+  font-size: 20px;
+  border: 1px solid white;
+}
+
   .navbar__link {
     text-align: center;
     font-size: 20px;
     color: #fff;
   }
 
+
   .navbar__btn {
     padding-bottom: 2rem;
   }
+
+ hero-section
+#feature-page {
+position: absolute;
+left: 120px;
+top: 130px;
+width: 116px;
+height: 17px;
+
+}
+#price-page {
+  position: absolute;
+  top: 180px;
+  left: 130px;
+  width: 92px;
+  height: 17px;
 
   .button {
     display: flex;
@@ -191,6 +228,7 @@ body {
     z-index: 999;
   }
 
+
   #home-page {
     position: absolute;
     left: 125px;
@@ -206,6 +244,15 @@ body {
     height: 17px;
   }
 
+
+#contact-page {
+  position: absolute;
+  top: 230px;
+  left: 129px;
+  width: 103px;
+  height: 17px;
+}
+
   #service-page {
     position: absolute;
     top: 230px;
@@ -213,6 +260,7 @@ body {
     width: 103px;
     height: 17px;
   }
+
 
   #login {
     position: absolute;
@@ -317,10 +365,24 @@ body {
   margin-top: 11px;
 }
 
+.hero__btn--chrome:hover {
+  background: #f7f7f7;
+  border: 1px solid #5267df;
+ 
+
+}
+
+.hero__btn--chrome a:hover {
+  color: #5267df;
+  transition: all 0s ease;
+}
+
 .hero__btn--chrome a {
+
   color: #ffff;
   text-decoration: none;
   text-align: center;
+  transition: all 0s ease;
 }
 
 .hero__btn--firefox {
@@ -334,12 +396,21 @@ body {
   position: relative;
   font-size: 0.9rem;
   margin-top: 11px;
+  border: 0px;
 }
 
 .hero__btn--firefox a {
   color: #242a45;
   text-decoration: none;
   text-align: center;
+}
+
+.hero__btn--firefox:hover {
+  border: 1px solid #242a45;
+}
+
+.hero__btn--firefox a:hover {
+  color: #5b6074;
 }
 
 .hero__shape {
@@ -349,7 +420,7 @@ body {
   background: #5267df;
   z-index: 1;
   bottom: 5rem;
-  left: 400px;
+  left: 341px;
   border-bottom-left-radius: 50%;
   border-top-left-radius: 50%;
 }
