@@ -4,7 +4,6 @@ const easy_share = document.querySelector(".easy_sharing_container");
 
 const heading = document.querySelector(".feature_sub_heading");
 const paragraph = document.querySelector(".feature_p");
-// const btnText = document.querySelector(".feature_btn");
 const image = document.querySelector(".feature_image");
 
 simple_book.addEventListener("click", () => {
