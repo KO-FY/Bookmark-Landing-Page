@@ -9,6 +9,7 @@ body {
   max-width: 1440px;
   font-family: "Rubik", sans-serif;
   margin: 0 auto;
+  overflow-x: hidden;
 }
 
 /* Navigation Bar */
@@ -112,13 +113,14 @@ body {
 }
 
 /* Mobile view */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   .navbar__container {
     display: flex;
     justify-content: space-between;
     height: 40px;
     z-index: 1;
     margin-top: 70px;
+    width: 80%;
   }
 
   .navbar__logo {
@@ -286,7 +288,6 @@ body {
   padding: 5rem 0;
   padding-top: 0;
   padding-bottom: 0;
-  /* border: 1px solid green */
 }
 
 .hero__container {
@@ -424,11 +425,7 @@ body {
   width: 100%;
 }
 
-@media (min-width: 375px) and (max-width: 600px) {
-  body {
-    margin: 0 auto;
-  }
-
+@media (min-width: 375px) and (max-width: 500px) {
   .hero__container {
     display: grid;
     grid-template-columns: 1fr;
@@ -437,7 +434,6 @@ body {
     width: 100%;
     margin: 0 auto;
     height: 50%;
-    max-width: 1440px;
   }
 
   .hero__content {
@@ -447,6 +443,13 @@ body {
     top: 400px;
     right: 50px;
     text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 5;
   }
 
   .hero__content h1 {
@@ -498,11 +501,177 @@ body {
     height: 48px;
   }
 }
-
-@media screen and (max-width: 375px) {
-  body {
-    margin: 0 auto;
+@media (min-width: 501px) and (max-width: 675px) {
+  .hero {
+    border: 1px solid salmon;
+    flex-direction: column;
+    justify-content: center;
   }
+
+  .hero__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 50%;
+    position: relative;
+  }
+
+  .hero__content {
+    position: relative;
+    width: 500px;
+    height: 276px;
+    top: 400px;
+    right: 50px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero__content h1 {
+    font-size: 30px;
+    width: 435px;
+    height: 80px;
+    text-align: center;
+    line-height: 40px;
+  }
+  .hero__content p {
+    font-size: 15px;
+    height: 100px;
+    width: 303px;
+    text-align: center;
+    width: 425px;
+  }
+
+  .hero__img--card {
+    width: 400px;
+    height: auto;
+    position: relative;
+    top: -200px;
+    left: 150px;
+  }
+  .hero__shape {
+    width: 50%;
+    height: 203px;
+    position: relative;
+    top: -380px;
+    left: 250px;
+  }
+
+  .hero__btn--chrome {
+    width: 151px;
+    border-color: #f7f7f7;
+    font-size: 14px;
+    padding: 2px;
+  }
+
+  .hero__btn--firefox {
+    width: 151px;
+    border-color: #f7f7f7;
+    font-size: 14px;
+    padding-right: 4px;
+  }
+  .hero__button {
+    position: relative;
+    right: 15px;
+    margin: 5px 5px;
+    height: 48px;
+    width: 435px;
+  }
+
+  .blue_background {
+    top: -2000px;
+  }
+}
+@media (min-width: 676px) and (max-width: 900px) {
+  .hero {
+    border: 1px solid salmon;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    height: 50%;
+    position: relative;
+  }
+
+  .hero__content {
+    position: relative;
+    width: 500px;
+    height: 276px;
+    top: 400px;
+    right: 50px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero__content h1 {
+    font-size: 30px;
+    width: 600px;
+    height: 80px;
+    text-align: center;
+    line-height: 40px;
+  }
+  .hero__content p {
+    font-size: 15px;
+    height: 100px;
+    text-align: center;
+    width: 550px;
+  }
+
+  .hero__img--card {
+    width: 500px;
+    height: auto;
+    position: relative;
+    top: -230px;
+    left: 200px;
+  }
+  .hero__shape {
+    width: 50%;
+    height: 300px;
+    position: relative;
+    top: -520px;
+    left: 400px;
+  }
+
+  .hero__btn--chrome {
+    width: 151px;
+    border-color: #f7f7f7;
+    font-size: 14px;
+    padding: 2px;
+  }
+
+  .hero__btn--firefox {
+    width: 151px;
+    border-color: #f7f7f7;
+    font-size: 14px;
+    padding-right: 4px;
+  }
+  .hero__button {
+    position: relative;
+    right: 15px;
+    margin: 5px 5px;
+    height: 48px;
+    width: 435px;
+  }
+}
+
+@media screen and (max-width: 374px) {
   .hero__container {
     display: grid;
     grid-template-columns: 1fr;
@@ -593,7 +762,6 @@ body {
   letter-spacing: -0.1px;
   line-height: 52px;
   font-style: normal;
-  font-family: Rubik;
   text-align: center;
   font-size: 32px;
   color: #242a45;
@@ -601,7 +769,6 @@ body {
 
 .features_p {
   color: #242a45;
-  font-family: Rubik;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -621,7 +788,6 @@ body {
   font-size: 14px;
   letter-spacing: 0.25px;
   font-weight: 500;
-  font-family: Rubik;
 }
 
 .tabs-container {
@@ -698,7 +864,6 @@ body {
   line-height: 52px;
   font-style: normal;
   font-weight: 500;
-  font-family: Rubik;
 }
 
 .features_content > p {
@@ -706,13 +871,12 @@ body {
   font-size: 18px;
   line-height: 28px;
   font-style: normal;
-  font-family: Rubik;
   height: 84px;
   opacity: 0.5;
 }
 
 .features_content > button {
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 /************ Extensions section ********/
@@ -798,7 +962,7 @@ body {
   color: hsl(0, 0%, 100%);
   background: hsl(231, 69%, 60%);
   border: 2px solid hsl(231, 69%, 60%);
-  padding: 0.7rem 1.5rem;
+  padding: 0.5rem 0.5rem;
   border-radius: 0.3rem;
   font-size: 0.9rem;
   transition: 0.5s;
@@ -808,8 +972,6 @@ body {
   background: transparent;
   color: hsl(231, 69%, 60%);
 }
-
-/******************************/
 
 /* faq section */
 .faq {
@@ -852,6 +1014,7 @@ body {
   line-height: 32px;
   font-weight: 400;
   cursor: pointer;
+  text-align: left;
 }
 .question p {
   font-size: 22px;
@@ -879,13 +1042,15 @@ body {
 .info {
   margin-top: 40px;
   margin-bottom: 50px;
-  height: 30px;
+  height: 48px;
   width: 100px;
   background-color: blue;
   color: white;
   border-radius: 3px;
   border: none;
   outline: none;
+  padding: 20px;
+  text-align: center;
 }
 .question-container span:hover {
   color: red;
@@ -1032,20 +1197,7 @@ button.contact-us-button:hover {
 
 /* Queries */
 
-@media screen and (max-width: 375px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-  }
-
-  body {
-    max-width: 1440px;
-    font-family: "Rubik", sans-serif;
-    overflow-x: hidden;
-  }
-
+@media screen and (max-width: 374px) {
   .extensions {
     padding: 3rem 1.5rem 2rem;
     min-height: 100vh;
@@ -1085,7 +1237,7 @@ button.contact-us-button:hover {
   }
 
   .extensions .extensions-row .extensions-col a {
-    padding: 0.6rem 1.5rem;
+    padding: 0.6rem 0.5rem;
   }
 
   .extensions .extensions-row .extensions-col:nth-child(2) {
@@ -1118,7 +1270,6 @@ button.contact-us-button:hover {
 
   .faq h1 {
     top: calc(50% - 52px / 2 - 36px);
-    font-family: Rubik;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
@@ -1133,7 +1284,6 @@ button.contact-us-button:hover {
     left: 0%;
     right: 0%;
     top: calc(50% - 56px / 2 + 34px);
-    font-family: Rubik;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -1156,7 +1306,6 @@ button.contact-us-button:hover {
   }
 
   .question button {
-    font-family: Rubik;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -1197,19 +1346,6 @@ button.contact-us-button:hover {
 }
 
 @media (min-width: 375px) and (max-width: 1024px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-  }
-
-  body {
-    max-width: 1440px;
-    font-family: "Rubik", sans-serif;
-    overflow-x: hidden;
-  }
-
   /* Extensions section */
   .extensions {
     padding: 3rem 1.5rem 2rem;
@@ -1273,7 +1409,7 @@ button.contact-us-button:hover {
   }
 
   .extensions p {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
 
   /* faq section */
@@ -1287,8 +1423,7 @@ button.contact-us-button:hover {
 
   .faq h1 {
     top: calc(50% - 52px / 2 - 36px);
-    font-family: Rubik;
-    font-style: normal;
+     font-style: normal;
     font-weight: 500;
     font-size: 32px;
     line-height: 52px;
@@ -1302,7 +1437,6 @@ button.contact-us-button:hover {
     left: 0%;
     right: 0%;
     top: calc(50% - 56px / 2 + 34px);
-    font-family: Rubik;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -1323,7 +1457,6 @@ button.contact-us-button:hover {
   }
 
   .question button {
-    font-family: Rubik;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -1364,18 +1497,6 @@ button.contact-us-button:hover {
 }
 
 @media screen and (max-width: 600px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-  }
-
-  body {
-    margin: 0 auto;
-    font-family: "Rubik", sans-serif;
-  }
-
   .faq {
     font-size: 30px;
     text-align: center;
@@ -1385,7 +1506,6 @@ button.contact-us-button:hover {
 
   .faq h1 {
     top: calc(50% - 52px / 2 - 36px);
-    font-family: Rubik;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -1447,13 +1567,25 @@ button.contact-us-button:hover {
     justify-content: center;
   }
 
+  .contact-us-form {
+    position: relative;
+  }
+  #email-field {
+    margin-bottom: 40px;
+  }
+  .errMsg {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+  }
+
   .already-joined,
   .update,
   #email-field,
   button.contact-us-button {
     width: 100%;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   .bottom-nav {
     display: flex;
@@ -1488,7 +1620,7 @@ button.contact-us-button:hover {
 
   .extensions .extensions-row .extensions-col a {
     padding: 0.6rem 0.7rem;
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
 }
 
@@ -1545,7 +1677,7 @@ button.contact-us-button:hover {
 @media screen and (max-width: 1175px) {
   .features_section_bottom {
     flex-direction: column;
-    height: 710px;
+    height: 550px;
     align-items: center;
     justify-content: space-between;
   }
@@ -1606,7 +1738,7 @@ button.contact-us-button:hover {
     width: 330px;
     height: 180px;
     left: -20px;
-    top: 1156px;
+    top: 1150px;
     background-color: #5267df;
     border-radius: 0 0 150px 0;
     margin-top: 50px;
@@ -1627,7 +1759,7 @@ button.contact-us-button:hover {
     width: 96%;
     margin: 50px auto;
     height: 350px;
-    margin-bottom: 10px;
+    margin-bottom: 80px;
   }
 
   .features_content > p {
@@ -1701,6 +1833,11 @@ button.contact-us-button:hover {
   }
 
   .extensions p {
-    font-size: 0.7rem;
+    font-size: 1rem;
+  }
+}
+@media (min-width: 676px) and (max-width: 899px) {
+  .blue_background {
+    top: 1450px;
   }
 }
