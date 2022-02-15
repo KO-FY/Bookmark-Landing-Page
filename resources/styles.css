@@ -222,7 +222,7 @@ body {
 
   #feature-page {
     position: absolute;
-    left: 115px;
+    left: 91px;
     top: 130px;
     width: 116px;
     height: 17px;
@@ -230,7 +230,7 @@ body {
   #price-page {
     position: absolute;
     top: 180px;
-    left: 123px;
+    left: 100px;
     width: 92px;
     height: 17px;
   }
@@ -239,7 +239,7 @@ body {
   #contact-page {
     position: absolute;
     top: 230px;
-    left: 120px;
+    left: 98px;
     width: 103px;
     height: 17px;
   }
@@ -247,7 +247,8 @@ body {
   #login {
     position: absolute;
     top: 310px;
-    left: 10px;
+    left: 15px;
+    width: 270px;
   }
   .navbar__toggle .bar {
     display: block;
