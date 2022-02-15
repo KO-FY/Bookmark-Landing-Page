@@ -9,12 +9,12 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="./resources/images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" href="./resources/styles.css" />
 
-    <link rel="stylesheet" type="text/css" href="/Bookmark-Landing-Page/resources/styles.css">
+    <link rel="stylesheet" type="text/css" href="./resources/styles.css">
 
     <title>Bookmark landing page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -81,7 +81,7 @@
   </section>
   
    
-<section class="features_section">
+<section class="features_section" id="feature">
 
       <article class="features_section_top">
         <div class="features_heading">
@@ -96,7 +96,7 @@
       <article class="tabs-container">
         <div class="simple_bookmark_container">Simple Bookmarking</div>
         <div class="speedy_searching_container">Speedy Searching</div>
-        <div class="easy_sharing_container">Easy Sharing</div>
+        <div class="easy_sharing_container">Easy Sharing</d>
       </article>
       <div class="blue_background"></div>
       <article class="features_section_bottom">
@@ -122,8 +122,8 @@
     </section>
     
     <section class="extensions">
-      <h2>Download the extension</h2>
-      <p>We’ve got more browsers in the pipeline. Please do let us know if<br> you’ve got a favourite you’d like us to prioritize</p>
+      <h2 class="download-e">Download the extension</h2>
+      <p class="all-browsers">We’ve got more browsers in the pipeline. Please do let us know if<br> you’ve got a favourite you’d like us to prioritize</p>
     
       <div class="extensions-row">
         <div class="extensions-col">
@@ -217,12 +217,12 @@
     <button type="button" class="info">More Info</button>
     </center>
   
-    <section class="contact-us">
+    <section class="contact-us" id="contact">
       <p class="already-joined">35,000+ already joined</p>
       <p class="update">Stay up-to-date with what we’re doing</p>
 
-      <form class="contact-us-form" action="#contact-us-button" onsubmit="getInputValue();">
-        <input id="email-field">
+      <form class="contact-us-form" id="contact-us-form" action="#contact-us-form" onsubmit="getInputValue();">
+        <input type="text" id="email-field" />
         <button class="contact-us-button">Contact Us</button>
         <p class="errMsg">Whoops, make sure it’s an email</p>
       </form>
@@ -248,13 +248,13 @@
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        >. Coded by <a href="#"><p style="text-align: center;">Solomon Asiedu,Stephen Diaba, Prince Eworho, Klinsmann Agyei, Daniel Bontii</p></a>.
       </p>
     </footer>
 
-    <script src="resources/main.js"></script>
     <script type="text/javascript" src="./resources/js/features.js"></script>
     <script type="text/javascript" src="./resources/js/hero.js"></script>
     <script type="text/javascript" src="./resources/js/email.js"></script>
+    <script type="text/javascript" src="./resources/js/faq.js"></script>
   </body>
 </html>
