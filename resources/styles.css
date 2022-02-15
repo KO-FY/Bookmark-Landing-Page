@@ -192,33 +192,6 @@ body {
     padding-bottom: 2rem;
   }
 
- hero-section
-#feature-page {
-position: absolute;
-left: 120px;
-top: 130px;
-width: 116px;
-height: 17px;
-
-}
-#price-page {
-  position: absolute;
-  top: 180px;
-  left: 130px;
-  width: 92px;
-  height: 17px;
-
-  .button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 308px;
-    height: 48px;
-    margin: 0;
-    background: #242a45;
-    font-size: 20px;
-    border: 1px solid white;
-  }
 
   #mobile-menu {
     position: absolute;
@@ -229,14 +202,14 @@ height: 17px;
   }
 
 
-  #home-page {
+  #feature-page {
     position: absolute;
     left: 125px;
     top: 130px;
     width: 116px;
     height: 17px;
   }
-  #about-page {
+  #price-page {
     position: absolute;
     top: 180px;
     left: 135px;
@@ -245,15 +218,8 @@ height: 17px;
   }
 
 
-#contact-page {
-  position: absolute;
-  top: 230px;
-  left: 129px;
-  width: 103px;
-  height: 17px;
-}
 
-  #service-page {
+  #contact-page {
     position: absolute;
     top: 230px;
     left: 130px;
