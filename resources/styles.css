@@ -1091,6 +1091,11 @@ button.contact-us-button {
   height: 48px;
   color: white;
 }
+button.contact-us-button:hover {
+  background-color: #ffffff;
+  color: #fa5959;
+  border: 1px solid #fa5959;
+}
 
 button.contact-us-button:active {
   background-color: #ffffff;
