@@ -127,7 +127,7 @@ body {
     width: 149px;
     height: 25px;
     margin-top: 12px;
-    margin-left: 30px;
+    margin-left: 1px;
     z-index: 9999;
     background: #f7f7f7;
   }
@@ -156,11 +156,16 @@ body {
     z-index: 120;
     height: 667px;
     font-size: 20px;
+    width: 100%;
+    max-width: 900px;
+
   }
   .navbar__toggle .bar {
+    
     width: 25px;
     height: 3px;
     margin: 5px auto;
+    margin-right: 300px;
     transition: all 0.3s ease-in-out;
     background: black;
   }
@@ -193,21 +198,8 @@ body {
     padding-bottom: 2rem;
   }
 
-  hero-section #feature-page {
-    position: absolute;
-    left: 120px;
-    top: 130px;
-    width: 116px;
-    height: 17px;
-  }
-
-  #price-page {
-    position: absolute;
-    top: 180px;
-    left: 130px;
-    width: 92px;
-    height: 17px;
-  }
+  
+ 
   .button {
     display: flex;
     justify-content: center;
@@ -228,33 +220,26 @@ body {
     z-index: 999;
   }
 
-  #home-page {
+  #feature-page {
     position: absolute;
-    left: 125px;
+    left: 91px;
     top: 130px;
     width: 116px;
     height: 17px;
   }
-  #about-page {
+  #price-page {
     position: absolute;
     top: 180px;
-    left: 135px;
+    left: 100px;
     width: 92px;
     height: 17px;
   }
 
+ 
   #contact-page {
     position: absolute;
     top: 230px;
-    left: 129px;
-    width: 103px;
-    height: 17px;
-  }
-
-  #service-page {
-    position: absolute;
-    top: 230px;
-    left: 130px;
+    left: 98px;
     width: 103px;
     height: 17px;
   }
@@ -262,6 +247,8 @@ body {
   #login {
     position: absolute;
     top: 310px;
+    left: 15px;
+    width: 270px;
   }
   .navbar__toggle .bar {
     display: block;
