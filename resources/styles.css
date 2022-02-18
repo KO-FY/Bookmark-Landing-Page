@@ -114,6 +114,9 @@ body {
 
 /* Mobile view */
 @media screen and (max-width: 900px) {
+  body{
+    overflow-x: hidden;
+  }
   .navbar__container {
     display: flex;
     justify-content: space-between;
@@ -413,6 +416,9 @@ body {
 }
 
 @media (min-width: 375px) and (max-width: 500px) {
+  body{
+    overflow-x: hidden;
+  }
   .hero__container {
     display: grid;
     grid-template-columns: 1fr;
@@ -489,6 +495,9 @@ body {
   }
 }
 @media (min-width: 501px) and (max-width: 675px) {
+  body{
+    overflow-x: hidden;
+  }
   .hero {
     border: 1px solid salmon;
     flex-direction: column;
@@ -576,6 +585,9 @@ body {
   }
 }
 @media (min-width: 676px) and (max-width: 900px) {
+  body{
+    overflow-x: hidden;
+  }
   .hero {
     border: 1px solid salmon;
     flex-direction: column;
@@ -659,6 +671,9 @@ body {
 }
 
 @media screen and (max-width: 374px) {
+  body{
+    overflow-x: hidden;
+  }
   .hero__container {
     display: grid;
     grid-template-columns: 1fr;
@@ -1190,6 +1205,9 @@ button.contact-us-button:hover {
 /* Queries */
 
 @media screen and (max-width: 374px) {
+  body{
+    overflow-x: hidden;
+  }
   .extensions {
     padding: 3rem 1.5rem 2rem;
     min-height: 100vh;
@@ -1339,6 +1357,9 @@ button.contact-us-button:hover {
 
 @media (min-width: 375px) and (max-width: 1024px) {
   /* Extensions section */
+  body{
+    overflow-x: hidden;
+  }
   .extensions {
     padding: 3rem 1.5rem 2rem;
     min-height: 100vh;
@@ -1489,6 +1510,9 @@ button.contact-us-button:hover {
 }
 
 @media screen and (max-width: 600px) {
+  body{
+    overflow-x: hidden;
+  }
   .faq {
     font-size: 30px;
     text-align: center;
@@ -1618,6 +1642,9 @@ button.contact-us-button:hover {
 
 /* features media queries */
 @media screen and (max-width: 511px) {
+  body{
+    overflow-x: hidden;
+  }
   .features_section_top {
     width: 311px;
     height: 152px;
@@ -1658,6 +1685,9 @@ button.contact-us-button:hover {
 }
 
 @media screen and (max-width: 1442px) {
+  body{
+    overflow-x: hidden;
+  }
   .blue_background {
     position: absolute;
     width: 900px;
@@ -1667,6 +1697,9 @@ button.contact-us-button:hover {
 }
 
 @media screen and (max-width: 1175px) {
+  body{
+    overflow-x: hidden;
+  }
   .features_section_bottom {
     flex-direction: column;
     height: 550px;
@@ -1686,6 +1719,9 @@ button.contact-us-button:hover {
 }
 
 @media screen and (max-width: 375px) {
+  body{
+    overflow-x: hidden;
+  }
   .blue_background {
     position: absolute;
     width: 330px;
@@ -1725,6 +1761,9 @@ button.contact-us-button:hover {
 }
 
 @media screen and (min-width: 375px) and (max-width: 690px) {
+  body{
+    overflow-x: hidden;
+  }
   .blue_background {
     position: absolute;
     width: 330px;
@@ -1764,6 +1803,9 @@ button.contact-us-button:hover {
 }
 
 @media screen and (max-width: 375px) {
+  body{
+    overflow-x: hidden;
+  }
   .extensions {
     padding: 3rem 1.5rem 2rem;
     min-height: 100vh;
@@ -1829,6 +1871,9 @@ button.contact-us-button:hover {
   }
 }
 @media (min-width: 676px) and (max-width: 899px) {
+  body{
+    overflow-x: hidden;
+  }
   .blue_background {
     top: 1450px;
   }
